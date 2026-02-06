@@ -26,8 +26,8 @@ jobs:
     - name: Run tests with pytest
       run: python -m pytest test_app.py -v
       
-    - name: Run application
-      run: python app.py
+    #- name: Run application
+    #  run: python app.py
       
   security-scan:
     runs-on: ubuntu-latest
