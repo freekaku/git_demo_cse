@@ -1,23 +1,20 @@
-a = 10
-b = 5
+def add(a,b):
+  return a+b
 
-def add(x, y):
-    return x + y
+def sub(a,b):
+  return a-b
 
-def sub(x, y):
-    return x - y
+def mul(a,b):
+  return a*b
+    
+def div(a,b):
+  if b==0:
+    return "cant have 0 as value"
+  return a/b
 
-def mul(x, y):
-    return x * y
-
-def div(x, y):
-  if y == 0:
-    return "Cannot divide by 0"
-  return x / y
-
-if __name__ == "__main__":
-  print("Calculator App")
-  print(f"Addition of {a} and {b} = {add(a, b)}")
-  print(f"Subtraction of {a} and {b} = {sub(a, b)}")
-  print(f"Multiplication of {a} and {b} = {mul(a, b)}")
-  print(f"Division of {a} and {b} = {div(a, b)}")
+if _name_=="_main_":
+  print(calcultae app")
+  print("10+5" = {add(10,5)}")
+  print("10+5" = {sub(10,5)}")
+  print("10+5" = {div(10,5)}")
+  print("10+5" = {mul(10,5)}")
